@@ -22,3 +22,32 @@ button {
   padding: 8px 12px;
   cursor: pointer;
 }
+/* task-4 */
+.list{
+  list-style: none;
+}
+
+.gallery{
+  display: flex;
+  /* width:1200px; */
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.gallery-img{
+width: 400px;
+height: 250px;
+}
+
+.gallery-item:not(:last-child){
+  margin-right: 100px;
+}
+
+/* task-6 */
+#validation-input {
+  border: 3px solid #bdbdbd;
+}
+
+#validation-input.valid {
+  border-color: #4caf50;
+}
