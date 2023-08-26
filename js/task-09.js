@@ -9,12 +9,12 @@ function getRandomHexColor() {
 }
 
 const changeColor = (event) => {
-document.body.style.backgroundColor = getRandomHexColor();
-spanColor.textContent = getRandomHexColor();
+  let randomColor = getRandomHexColor()
+document.body.style.backgroundColor = randomColor;
+spanColor.textContent = randomColor;
     if (buttonChange.textContent === 'Change color') {
         buttonChange.textContent = 'Change color again';
       }
 }
 buttonChange.addEventListener('click', changeColor)
 
-// event.currentTarget.value
